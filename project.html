@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Windows Designer</title>
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4723/4723401.png" type="image/x-icon">
+        <link rel="stylesheet" href="project.css">
+        <!-- <script src="D:\HTML\new\jquery-3.6.3.min.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="project.js"></script>
+    </head>
+    <body>
+        <p class="heading">Windows Design Platform</p>
+        <div class="pop-up-estimate">
+            <div class="cancel-div">
+                <img src="https://cdn-icons-png.flaticon.com/512/463/463612.png" class="estimate-cancel">
+            </div>
+            <div class="invoice">
+                <div class="invoice-icon-div">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4306/4306889.png" class="invoice-icon">
+                    <p class="company-name">Invoice</p>
+                </div>
+                <div class="company-details">
+                    <p class="company-name">Your Company Name</p>
+                    <p class="details">Your Business Address</p>
+                    <p class="details">City</p>
+                    <p class="details">Country</p>
+                    <p class="details">Postal</p>
+                </div>
+                <hr class="icon-line">
+                <div class="bill-profile">
+                    <p>Bill To: </p>
+                    <p class="company-name">Company Name</p>
+                    <p class="details">Your Business Address</p>
+                    <p class="details">City</p>
+                    <p class="details">Country</p>
+                    <p class="details">Postal</p>
+                </div>
+                <div class="bill-details">
+                    <p>INVOICE #</p>
+                    <p class="details">00000000</p>
+                    <p>DATE</p>
+                    <p class="details">01/01/23</p>
+                    <p>INVOICE DUE DATE</p>
+                    <p class="details">01/01/23</p>
+                </div>
+            <hr class="icon-line">
+            <!-- <div class="estimation"> -->
+                <!-- <div class="estimation-div"> -->
+                    <table class="estimate_table">
+                        <tr>
+                            <th>No</th>
+                            <th>Description</th>
+                            <th>Size</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Tax</th>
+                            <th>Total</th>
+                        </tr>
+                        <tr> 
+                            <td>1)</td>
+                            <td class="door_items">Door</th>
+                            <td class="door_size">1*1</th>
+                            <td class="door_quantity">1</th>
+                            <td class="door_price">140</th>
+                            <td class="door_tax">0%</td>
+                            <td class="door_total">1</th>
+                        </tr>
+                        <tr> 
+                            <td>2)</td>
+                            <td class="handle_items">Handle</th>
+                            <td class="handle_size">-</th>
+                            <td class="handle_quantity">1</th>
+                            <td class="handle_price">130</th>
+                            <td class="handle_tax">0%</td>
+                            <td class="handle_total">1</th>
+                        </tr>
+                    </table>
+                    <hr class="icon-line">
+                    <div class="invoice-conclusion">
+                        <p class="company-name"><u>Amount</u></p>
+                        <p>RS.<span class="Total">100</span>.00</p>
+                    </div>
+                    <hr class="icon-line">
+                    <div class="advertisment">
+                        <p>Powered by <img src="https://cdn-icons-png.flaticon.com/512/3585/3585972.png" class="ad-icon"> Company Logo</p>
+                    </div>
+                <!-- </div> -->
+            <!-- </div> -->
+        </div>
+        </div>
+        <div class="pop-up">
+            <div class="parameter">
+                <div class="cancel-div"><img src="https://cdn-icons-png.flaticon.com/512/463/463612.png" class="cancel"></div>
+                <p class="pop-up_caption">Choose the parameter</p>
+                <div>
+                    <button value="1" class="pm_1">Feet</button>
+                    <button value="2" class="pm_2">Inch</button>
+                </div>
+                <div class="back-div">
+                    <button class="back-button">Go Back</button>
+                </div>
+            </div>
+            <div class="parameter_enter">
+                <div class="cancel-div"><img src="https://cdn-icons-png.flaticon.com/512/463/463612.png" class="cancel"></div>
+                <p class="pop-up_caption pop-caption">Enter Height & Width</p>
+                    <div class="pop-div">
+                        <input type="number" placeholder="Width" id="width">   
+                    </div>
+                    <div class="line">
+                        <input type="number" placeholder="Height" id="height">
+                    </div>
+                    <div class="line">
+                        <img src="https://images.contentstack.io/v3/assets/bltf589e66bcaecd79c/blt3d118fa8c795da9e/5eb82ce61fca102e28a1c24a/reserve-cont-casement-cob-large.png?width=778&height=675&format=webp&quality=90" alt="Window image" class="window-design">
+                    </div>
+                    <div class="custom-align">
+                        <input type="number" placeholder="Enter Sq.feet price" class="sq_ft_price">
+                    </div>
+                    <div class="button-opt">
+                        <button class="button-line click" id="pop-submit">Submit</button>
+                        <button class="button-line click" id="pop-reset">Reset</button>
+                    </div>
+                    <div class="back-div">
+                        <button class="back-button">Go Back</button>
+                    </div>
+                    <div class="nxt-div">
+                        <button class="next-button">Next</button>
+                    </div>
+            </div>
+            <div class="parameter_door2">
+                <div class="cancel-div"><img src="https://cdn-icons-png.flaticon.com/512/463/463612.png" class="cancel"></div>
+                <p class="pop-up_caption">Choose the option</p>
+                <button value="1" class="pmd_1">Both Door same size</button>
+                <button value="2" class="pmd_2">Change the Door size</button>
+            </div>
+        </div>
+    <div class="body-content">
+        <div class="icon">
+            <div>
+                <p class="caption">Colors</p>
+                <div class="button-opt">
+                    <button class="button-size click" id="wood">Wood</button>
+                </div>
+                <div class="button-opt">
+                    <button class="button-size click" id="steel">Steenless Steel</button>
+                </div>
+                <div class="button-opt">
+                    <button class="button-size click" id="pvc">PVC</button>
+                </div>
+
+            </div>
+            <div>
+                <p class="caption">Option</p>
+                <div class="button-opt">
+                    <button class="button-size click" id="1">Single</button>
+                </div>
+                <div class="button-opt">
+                    <button class="button-size click" id="2">Double</button>
+                </div>
+                <div class="button-opt">
+                    <div class="button-opt">
+                        <input type="number" placeholder="Enter option" class="opt-input">
+                    </div>
+                    <div class="button-opt">
+                        <button class="button-line click" id="count-sumbit">Submit</button>
+                        <button class="button-line click" id="count-reset">Reset</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="design">
+            <div class="border">
+                    <div class="door" id="d1">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2520/2520382.png" class="handle">
+                        <div class="g1"></div>
+                    </div>
+            </div> 
+
+            <div class="door-duplicate">
+                <div class="door" id="dup1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2520/2520382.png" class="handle">
+                    <div class="g1"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="custom-option">
+            <p class="custom-caption">Customized Option</p>
+            <div class="custom-hide">
+                <div class="custom-align">
+                    <input type="number" placeholder="Width" class="custom-design w1" id="width1">   
+                </div>
+                <div class="custom-align">
+                    <input type="number" placeholder="Height" class="custom-design h1" id="height1">
+                </div>
+                <div id="add-button"></div>
+
+            <div class="custom-duplicate">
+                <div class="custom-align">
+                    <input type="number" placeholder="Width" class="custom-design w2" id="width_1">   
+                </div>
+                <div class="custom-align">
+                    <input type="number" placeholder="Height" class="custom-design h2" id="height_1">
+                </div>
+                <div id="add-button"></div>
+            </div>
+            <div class="button-opt">
+                <button class="button-line click" id="custom-submit">Submit</button>
+                <button class="button-line click" id="custom-reset">Reset</button>
+            </div>
+            
+            <div class="text-box">
+                <textarea name="Price" id="description" cols="20" rows="1"></textarea>
+            </div>
+            <div class="custom-align">
+                <input type="number" placeholder="Enter Sq.feet price" class="custom_sq_ft_price">
+            </div>
+            <div class="custom-align">
+                <button class="button-line" id="estimate">Print</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,286 @@
+body{
+    display: grid;
+    margin: auto;
+    background-color: rgba(250, 235, 215, 0.495);
+    text-align: center;
+    position: sticky;
+}
+.heading{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color: salmon;
+    font-weight: bold;
+}
+.body-content{
+    display: inline-flex;
+}
+.icon{
+    margin: 75px 2.5px auto 5px;
+}
+.design{
+    margin: 5px 2.5px auto 2.5px;
+    background-image: url('https://img.freepik.com/premium-vector/red-brick-wall-seamless-pattern-vector-background_182787-411.jpg?w=1380');
+    background-size: 100%;
+    height: 490px;
+    width: 990px;
+    padding: 5%;
+    border-radius: 5px;
+    display: inline-flex;
+}
+.custom-option{
+    margin: auto 1% auto 1%;
+    text-align: center;
+}
+.caption{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.button-opt{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button-size{
+    border-radius: 10px;
+    background-color: rgb(227, 202, 170);
+    border-style: none;
+    height: 40px;
+    width: 150px; 
+    font-size: 14px;
+    font-weight: 500;
+}
+.opt-input{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgba(161, 159, 159, 0.441);
+    padding-left: 20px;
+    border-style: none;
+}
+.button-line{
+    display: inline;
+    border-radius: 10px;
+    background-color: rgba(96, 94, 90, 0.393);   
+    border-style: none;
+    padding: 10px;
+    width: 80px;
+}
+.click:active{
+    background-color: rgb(106, 103, 103);
+    color: rgb(255, 255, 255);
+}
+.custom-design,.sq_ft_price,.custom_sq_ft_price{
+    border-style: none;
+    height: 30px;
+    width: 180px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.189);
+}
+.custom-align{
+    padding-top: 5px;
+}
+.border{
+    height: 100%;
+    width: 50%;
+    background: transparent;
+    border-radius: 5px;
+    margin: auto;
+    overflow: auto;
+    display: inline-flex;
+}
+.door{
+    background-image: url('https://img.freepik.com/free-photo/faded-gray-wooden-textured-flooring-background_53876-110739.jpg?w=1060&t=st=1674292060~exp=1674292660~hmac=94fa414aea190dc0950d1f76b6cde3ddca1622321877600a087d18239ec59884');
+    overflow: auto;
+    display: inline-table;
+    margin: auto;
+}
+.g1{
+    margin: auto;
+    height: 94.15%;
+    background-image: url('https://img.freepik.com/free-photo/fantastic-seascape-with-ripples_1232-424.jpg?w=1060&t=st=1675168323~exp=1675168923~hmac=e04cbdbe96b6cd12f11f254fba39bccb06c8564f03c6873306ded63ffef7c6e2');
+    /* linear-gradient(to bottom,rgb(85, 85, 133),rgb(134, 175, 188)); */
+    background-size: cover;
+    border: 15px solid transparent;
+    border-image: url('https://img.freepik.com/free-photo/faded-gray-wooden-textured-flooring-background_53876-110739.jpg?w=1060&t=st=1674292060~exp=1674292660~hmac=94fa414aea190dc0950d1f76b6cde3ddca1622321877600a087d18239ec59884')300 stretch;
+}
+#d1,#dup1{
+    /* height: 100%;
+    width: 100%; */
+    margin: auto;
+}
+.door-duplicate,.custom-duplicate,.pop-up,.nxt-div,.Qutation_duplicate,.pop-up-estimate{
+    display: none;
+}
+.handle{
+    height: 6%;
+    width: 3%;
+    float: right;
+    padding-top: 50%;
+}
+.pop-up{ 
+    border: 2px solid gray;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin: 10% 35% auto 35%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(99, 99, 99);
+}
+.pm_1,.pm_2,.pmd_1,.pmd_2{
+    border-radius: 10px;
+    width: 30%;
+    border-style: none;
+    background-color: rgb(189, 189, 189);
+    padding: 2.5%;
+}
+.pm_1:active,.pm_2:active,.pmd_1:active,.pmd_2:active{
+    background-color: rgb(90, 90, 86);
+    color: whitesmoke;
+}
+.pop-up_caption{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(62, 62, 62);
+    text-decoration: underline;
+    margin-left: 35px;
+}
+.back-div,.nxt-div{
+    padding: 10px;
+}
+.back-button,.next-button{
+    background-color: rgb(173, 170, 168);
+    border: none;
+    padding: 2% 5%;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
+.back-button:active,.next-button:active{
+    background-color: rgb(67, 65, 65);
+    color: white;
+}
+.window-design{
+    margin: auto;
+    height: 50%;
+    width: 52%;
+}
+.line{
+    display: inline;
+    margin: auto;
+}
+.pop-h{
+    position: absolute;
+    margin: 95px auto auto -55px;
+    height: 2%;
+    width: 8%;
+    rotate: 270deg;
+    padding-left: 80px;
+}
+.pop-w{
+    height: 1.8%;
+    width: 16%;
+    padding-left: 45px;
+}
+.pop-h1{
+    position: absolute;
+    margin: 110px auto auto -110px;
+    height: 2%;
+    width: 10%;
+    rotate: 270deg;
+    padding-left: 80px;
+}
+.pop-w1{
+    height: 16.8%;
+    width: 25%;
+    padding-left: 70px;
+}
+.pop-div{
+    padding: 1%;
+}
+.parameter_door2{
+    padding: 5%;
+}
+.estimate_table{
+    margin-left: 8.5%;
+    width: 85%;
+    overflow: auto;
+}
+#estimate{
+    background-color: rgba(0, 149, 0, 0.714);
+    color: white;
+}
+#estimate:active{
+    background-color: rgb(0, 68, 0);
+}
+.cancel{
+    height: 4%;
+    width: 4%;
+    float: right;
+    margin: -10px 12.5px auto auto;
+}
+.cancel:active,.estimate-cancel{
+    content: url('https://cdn-icons-png.flaticon.com/512/458/458594.png');
+}
+.estimate-cancel{
+    height: 2%;
+    position: fixed; 
+    margin-left: 45%;
+    margin-top: 1%;
+}
+.text-box{
+    padding-top: 15px;
+}
+#description{
+    text-align: center;
+    border-radius: 5px;
+}
+.invoice-icon{
+    height: 11%;
+    width: 11%;
+}
+.invoice-icon-div{
+    margin-left: 8.5%;
+    text-align: left;
+    margin-top: 8%;
+}
+.icon-line{
+    margin: 1% 8%;
+}
+.company-details{
+    margin-top: -21%;
+    text-align: right;
+    margin-right: 8.5%;
+}
+.details{
+    font-size: small;
+    font-weight: 300;
+}
+.company-name{
+    font-size: large;
+    font-weight: 700;
+}
+.bill-profile{
+    text-align: left;
+    margin-left: 8.5%;
+}
+.bill-details{
+    text-align: right;
+    margin-right: 8.5%;
+    margin-top: -27%;   
+}
+.pop-up-estimate{
+    /* background-image: linear-gradient(to left, rgba(45, 45, 177, 0.674),blueViolet,rgba(178, 14, 178, 0.548)); */
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+.invoice-conclusion{
+    text-align: right;
+    margin-right: 8.5%;
+}
+.ad-icon{
+    height: 1%;
+    width: 1%;
+}
+.advertisment{
+    height: 145px;
+}
